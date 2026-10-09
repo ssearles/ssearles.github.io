@@ -1,112 +1,89 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.32.2" />
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Steven Searles</title>
+<meta name="description" content="Steven Searles on GitHub.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --fg: #1c1e21;
+    --muted: #6b7280;
+    --bg: #ffffff;
+    --card: #f6f7f9;
+    --border: #e3e5e8;
+    --link: #0b62d0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #e6e8eb;
+      --muted: #9aa2ae;
+      --bg: #14161a;
+      --card: #1c1f25;
+      --border: #2b303a;
+      --link: #7fb0ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.25rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { width: 100%; max-width: 34rem; }
+  h1 {
+    margin: 0 0 .35rem;
+    font-size: 1.9rem;
+    font-weight: 650;
+    letter-spacing: -0.02em;
+  }
+  p.tagline { margin: 0 0 2rem; color: var(--muted); }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
+  a.card {
+    display: block;
+    padding: 1rem 1.15rem;
+    border: 1px solid var(--border);
+    border-radius: .6rem;
+    background: var(--card);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color .15s ease;
+  }
+  a.card:hover { border-color: var(--link); }
+  a.card .name { display: block; font-weight: 600; color: var(--link); }
+  a.card .desc { display: block; margin-top: .15rem; font-size: .9rem; color: var(--muted); }
+  footer { margin-top: 2.5rem; font-size: .85rem; color: var(--muted); }
+  footer a { color: var(--link); }
+</style>
+</head>
+<body>
+  <main>
+    <h1>Steven Searles</h1>
+    <p class="tagline">This is just a placeholder — the real work is on GitHub.</p>
 
+    <ul>
+      <li>
+        <a class="card" href="https://github.com/ssearles">
+          <span class="name">github.com/ssearles</span>
+          <span class="desc">My GitHub profile</span>
+        </a>
+      </li>
+      <li>
+        <a class="card" href="https://github.com/ssearles/disk-backup-skills">
+          <span class="name">disk-backup-skills</span>
+          <span class="desc">Agent skills for external disk diagnostics and Rescuezilla backup workflows</span>
+        </a>
+      </li>
+    </ul>
 
-<title>A Hugo website</title>
-<meta property="og:title" content="A Hugo website">
-<meta property="og:type" content="website">
-
-
-
-<meta property="description" content="A website built through Hugo and blogdown.">
-
-
-
-
-
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="A Hugo website" />
-
-
-
-<link rel="stylesheet" href="/css/fonts.css" media="all">
-<link rel="stylesheet" href="/css/main.css" media="all">
-
-
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <nav class="nav">
-  <a href="/" class="nav-logo">
-    <img src="/images/logo.png"
-         width="50"
-         height="50"
-         alt="Logo">
-  </a>
-
-  <ul class="nav-links">
-    
-    <li><a href="/about/">About</a></li>
-    
-    <li><a href="https://ssearles.github.io/">GitHub</a></li>
-    
-    <li><a href="https://twitter.com/rstudio">Twitter</a></li>
-    
-  </ul>
-</nav>
-
-      </header>
-
-
-<main class="content" role="main">
-
-  
-  <div class="archive">
-    
-    <h2 class="archive-title">2016</h2>
-    
-    <article class="archive-item">
-      <a href="/2016/12/30/a-plain-markdown-post/" class="archive-item-link">A Plain Markdown Post</a>
-      <span class="archive-item-date">
-        2016/12/30
-      </span>
-    </article>
-    
-    
-    <h2 class="archive-title">2015</h2>
-    
-    <article class="archive-item">
-      <a href="/2015/07/23/hello-r-markdown/" class="archive-item-link">Hello R Markdown</a>
-      <span class="archive-item-date">
-        2015/07/23
-      </span>
-    </article>
-    
-    <article class="archive-item">
-      <a href="/2015/01/01/lorem-ipsum/" class="archive-item-link">Lorem Ipsum</a>
-      <span class="archive-item-date">
-        2015/01/01
-      </span>
-    </article>
-    
-    
-  </div>
-  
-
-</main>
-
-      <footer class="footer">
-        <ul class="footer-links">
-          <li>
-            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
-          </li>
-          <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
-          </li>
-        </ul>
-      </footer>
-
-    </div>
-    
-
-    
-
-    
-  </body>
+    <footer>Previously hosted a Hugo demo site here (2018&ndash;2026). <a href="https://github.com/ssearles/ssearles.github.io">Source</a></footer>
+  </main>
+</body>
 </html>
-
